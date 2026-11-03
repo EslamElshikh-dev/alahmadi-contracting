@@ -15,6 +15,7 @@ import {
 import "./globals.css";
 
 export const metadata: Metadata = {
+  creator: "المهندس إسلام الشيخ",
   metadataBase: new URL(DEFAULT_SITE_URL),
   title: {
     default: `${SITE_NAME} | مقاول تأسيس وصيانة وتشطيبات بالرياض`,

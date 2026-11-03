@@ -1,3 +1,4 @@
+import { EslamDeveloperSignature } from "../../components/eslam-developer-credit";
 import Link from "next/link";
 import { articles } from "@/app/lib/articles";
 import { services } from "@/app/lib/services";
@@ -57,6 +58,6 @@ export function Footer() {
         <p>© {new Date().getFullYear()} {SITE_NAME}. جميع الحقوق محفوظة.</p>
         <p>نطاق الخدمة المعلن: مدينة الرياض</p>
       </div>
-    </footer>
+    <div className="eslam-credit-slot"><EslamDeveloperSignature /></div></footer>
   );
 }
